@@ -5,11 +5,11 @@
 }
 
 :root {
-  --primary: #1e3a8a;       
-  --primary-light: #2563eb; 
-  --text-main: #1f2937;     
-  --text-muted: #4b5563;    
-  --border-color: #e5e7eb;  
+  --primary: #1e3a8a;       /* Azul marino elegante */
+  --primary-light: #2563eb; /* Azul interactivo para el hover */
+  --text-main: #1f2937;     /* Texto principal */
+  --text-muted: #4b5563;    /* Texto secundario */
+  --border-color: #e5e7eb;  /* Líneas sutiles */
 }
 
 body {
