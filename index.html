@@ -2,28 +2,118 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Currículum - María Fernanda Reséndiz Mejía</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; }
-    h1 { color: #2c3e50; }
-    .contacto { margin-bottom: 20px; }
-    a { color: #2980b9; text-decoration: none; }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - María Fernanda Reséndiz Mejía</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>María Fernanda Reséndiz Mejía</h1>
-  <div class="contacto">
-    <p>Email: maria@email.com</p>
-    <p>Tel: 449-000-0000</p>
-    <p>
-      <a href="https://www.linkedin.com/in/reséndiz-mejía-maría-fernanda-8a14a4431">LinkedIn</a> |
-      <a href="https://github.com/Fer-Mejia">GitHub</a>
-    </p>
-  </div>
-  <h2>Educación</h2>
-  <p>Universidad Autónoma de Aguascalientes - Ingeniería en Sistemas Computacionales</p>
 
-  <h2>Experiencia</h2>
-  <p>Proyectos académicos en web, sistemas distribuidos y simulación electrónica.</p>
+  <div class="cv-container">
+    
+    <!-- HEADER -->
+    <header class="header">
+      <div class="header-content">
+        <div class="header-text">
+          <h1>MARÍA FERNANDA RESÉNDIZ MEJÍA</h1>
+          <p class="subtitle">Desarrolladora Web &nbsp;|&nbsp; Estudiante de Ingeniería en Sistemas Computacionales</p>
+          <div class="contact-info">
+            <span>Aguascalientes, Ags.</span> <span class="bullet">•</span>
+            <span>449 438 9881</span> <span class="bullet">•</span>
+            <a href="mailto:mariferrmejia@gmail.com" class="link">mariferrmejia@gmail.com</a> <span class="bullet">•</span>
+            <a href="https://www.linkedin.com/in/reséndiz-mejía-maría-fernanda-8a14a4431" target="_blank" class="link badge">LinkedIn</a> <span class="bullet">•</span>
+            <a href="https://github.com/Fer-Mejia" target="_blank" class="link badge">GitHub</a>
+          </div>
+        </div>
+        <div class="profile-photo">
+          <img src="Foto.jpeg" alt="María Fernanda Reséndiz Mejía">
+        </div>
+      </div>
+    </header>
+
+    <!-- PERFIL PROFESIONAL -->
+    <section class="section">
+      <h2 class="section-title">PERFIL PROFESIONAL</h2>
+      <p class="profile-text">
+        Estudiante de Ingeniería en Sistemas Computacionales (7° semestre, Universidad Autónoma de Aguascalientes) con 3 años de formación técnica previa en programación adquirida en el CBTIS 168. Experiencia en desarrollo web front-end y back-end, programación estructurada y orientada a objetos, manejo de bases de datos y desarrollo low-code con Mendix. Interés y enfoque particular en desarrollo web.
+      </p>
+    </section>
+
+    <!-- EDUCACIÓN -->
+    <section class="section">
+      <h2 class="section-title">EDUCACIÓN</h2>
+      
+      <div class="item">
+        <div class="item-header">
+          <h3>Ingeniería en Sistemas Computacionales <span class="institution">— Universidad Autónoma de Aguascalientes (UAA)</span></h3>
+          <span class="date">2023 – actualidad</span>
+        </div>
+        <p class="sub-detail">7° semestre en curso</p>
+      </div>
+
+      <div class="item">
+        <div class="item-header">
+          <h3>Técnico en Programación <span class="institution">— CBTIS 168</span></h3>
+          <span class="date">2020 – 2023</span>
+        </div>
+        <p class="description">
+          Programación estructurada en Python · Administración de bases de datos · POO en Python · Desarrollo de aplicaciones web y móviles · Administración de sistemas operativos · Creación de páginas web
+        </p>
+      </div>
+    </section>
+
+    <!-- CERTIFICACIONES -->
+    <section class="section">
+      <h2 class="section-title">CERTIFICACIONES</h2>
+      <div class="item">
+        <div class="item-header">
+          <h3>Mendix Rapid Developer <span class="institution">— Mendix</span></h3>
+          <span class="date">Mayo 2026</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES TÉCNICAS -->
+    <section class="section">
+      <h2 class="section-title">HABILIDADES TÉCNICAS</h2>
+      <ul class="skills-list">
+        <li><strong>Lenguajes de programación:</strong> C / C++, C#, Python, PHP, Java, R, JavaScript</li>
+        <li><strong>Desarrollo web:</strong> HTML, CSS, JavaScript, frameworks Angular y React</li>
+        <li><strong>Bases de datos:</strong> MySQL, MariaDB</li>
+        <li><strong>Low-code:</strong> Mendix</li>
+        <li><strong>Ofimática y diseño:</strong> Word, Excel y PowerPoint (nivel intermedio), Photoshop</li>
+        <li><strong>Idiomas:</strong> Inglés (nivel intermedio)</li>
+      </ul>
+    </section>
+
+    <!-- PROYECTOS DESTACADOS -->
+    <section class="section">
+      <h2 class="section-title">PROYECTOS DESTACADOS</h2>
+      
+      <div class="project-category">
+        <h3>Sitios web</h3>
+        <ul>
+          <li><strong>Página web para gimnasio:</strong> HTML, CSS, JavaScript, desarrollada y publicada en Hostinger</li>
+          <li><strong>Tricoterashop:</strong> Tienda en línea de figuras hechas a crochet (HTML, CSS, JavaScript)</li>
+          <li><strong>LaFinca:</strong> Sitio web para cafetería (HTML, CSS, JavaScript, Angular)</li>
+          <li><strong>Página para organizar un intercambio de regalos:</strong> HTML, CSS, JavaScript</li>
+          <li><strong>Simulación de red social tipo Pinterest:</strong> Desarrollada con React</li>
+          <li><strong>Recreaciones de páginas existentes:</strong> (Starbucks, LEGO) como práctica de maquetación y diseño (HTML, CSS, JavaScript)</li>
+        </ul>
+      </div>
+
+      <div class="project-category">
+        <h3>Aplicaciones y videojuegos</h3>
+        <ul>
+          <li><strong>Pacman, laberinto, memorama y agenda de contactos:</strong> Desarrollados en C/C++ con la librería Allegro</li>
+          <li><strong>“Adivina quién”:</strong> Desarrollado en Java</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
 </body>
 </html>
